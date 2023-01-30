@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "data-ingestion"
+version = "0.1.0"
+description = ""
+authors = ["Aman K. Shihab <amanshihab273@gmail.com>"]
+readme = "README.md"
+packages = [{include = "data_ingestion"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+boto3 = "^1.26.59"
+black = "^22.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
